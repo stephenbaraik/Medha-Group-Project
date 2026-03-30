@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Model files (large)
+models/*.h5
+models/*.keras
+models/*.npy
+models/*.json
+!models/.gitkeep
+
+# Training artifacts
+*.csv
+training_log.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Claude Code
+.claude/
